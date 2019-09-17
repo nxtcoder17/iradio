@@ -4,7 +4,7 @@
 
 #### Steps to install it 
 + Clone to this repo, anywhere on your system
-+ Then, open your .bashrc (or other corresponding to your shell), and add this function
++ Then, open your `.bashrc` (or other corresponding to your shell), and add this function
 
 ```
 dir="path-to-the-cloned-repo"
@@ -20,5 +20,5 @@ http://50.7.68.251:7064/stream  hsl
 http://78.31.65.20:8880/joyhits.mp3 heart-hits
 ```
 
-+ Then, refersh your current shell or open a new terminal instance, and issue `iradio 1fm`
++ Then, refersh your current shell or open a new terminal instance, and issue command ```iradio 1fm```
 
