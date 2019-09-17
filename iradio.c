@@ -18,10 +18,10 @@ int main(int argc, char* argv[])
     }
 
     char playbin_uri[1000] = "playbin uri=";
-    printf("\n\n");
-    printf("[+] [BUILDING playbin]: %s\n", playbin_uri);
+    /* printf("\n\n"); */
+    /* printf("[+] [BUILDING playbin]: %s\n", playbin_uri); */
 
-    printf("[-] [CL_STATUS]: %d\n", strcmp(argv[1], "-f"));
+    /* printf("[-] [CL_STATUS]: %d\n", strcmp(argv[1], "-f")); */
     if ( strcmp(argv[1], "-f") == 0) {
         strcat(playbin_uri, "file://");
         strcat(playbin_uri, argv[2]);
@@ -30,11 +30,11 @@ int main(int argc, char* argv[])
     }
 
 
-    printf("[+1] [BUILDING playbin]: %s\n", playbin_uri);
+    /* printf("[+1] [BUILDING playbin]: %s\n", playbin_uri); */
 
     /* Building the pipeline */
     pipeline = gst_parse_launch(playbin_uri, NULL);
-    printf("[+2] [BUILDING playbin]: %s\n", playbin_uri);
+    /* printf("[+2] [BUILDING playbin]: %s\n", playbin_uri); */
 
     /* Starting the PlayBack */
     gst_element_set_state(pipeline, GST_STATE_PLAYING);

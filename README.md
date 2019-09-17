@@ -20,5 +20,11 @@ http://50.7.68.251:7064/stream  hsl
 http://78.31.65.20:8880/joyhits.mp3 heart-hits
 ```
 
-+ Then, refersh your current shell or open a new terminal instance, and issue command ```iradio 1fm```
++ Then, refersh your current shell or open a new terminal instance, and issue command 
+```
+iradio 1fm
+```
 
++ Congrats, you completed the setup, enjoy **iradio** now
+
+![playing image](./images/playing.png)
